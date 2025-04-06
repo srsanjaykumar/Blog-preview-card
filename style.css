@@ -1,0 +1,29 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+
+}
+
+.border{
+    border-radius: 15px;
+}
+.main{
+    max-width: 350px;
+    padding: 20px;
+    background-color: white;
+
+}
+img{
+    object-fit: cover;
+    max-width: 100%;    /* set image full cover of div container */
+
+}
